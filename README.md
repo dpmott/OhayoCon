@@ -1,4 +1,4 @@
-# StarbaseIndy
+# OhayoCon
 Repository for web content, such as the (future) registration system, online pocket schedule, etc.
 
 
@@ -18,8 +18,8 @@ Repository for web content, such as the (future) registration system, online poc
 * Update publish.html URL to specify year
 * Register new convention + year with lambda (CloudFormation/index.js)
 * Test publishing lambda
-* * Publish: e.g. https://starbaseindy.github.io/StarbaseIndy/2021/publish.html)
-* * View: e.g. https://starbaseindy.github.io/StarbaseIndy/2021
+* * Publish: e.g. https://ohayocon.github.io/OhayoCon/2021/publish.html)
+* * View: e.g. https://ohayocon.github.io/OhayoCon/2021
 * Clean out and pre-populate images folder of presenters/guests
 * Update qr-code.png (https://tinyurl.com, https://www.qrcode-monkey.com)
 * Update OnlineMap.jpg
