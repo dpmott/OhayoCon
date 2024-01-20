@@ -1,0 +1,43 @@
+<html>
+<head>
+  <style>
+    .empty {
+      background-color: lightgray
+    }
+    .nested {
+      width:80%;
+      border:1px solid black; 
+      border-right: none; 
+      margin-left: auto; 
+      margin-right: 0; 
+      padding: 2px; 
+    } 
+    .tableContainer {
+      page-break-after: always;
+    }
+    table { 
+      border-collapse: collapse; 
+    }
+    tr {
+      page-break-inside: avoid;
+    }
+    td, th {
+      border: 1px solid black; 
+      vertical-align: top; 
+      padding: 2px; 
+      padding-right: 0px;
+      page-break-inside: avoid;
+    }
+  </style>
+</head>
+<body>
+<div class="tableContainer" style="min-height: 0px;"><table ><thead ><tr ><th colspan=2 style="border: 0px; text-align: left"><h2>2019-12-31 Tuesday</h2></th></tr>
+	<tr >
+		<th ></th>
+		<th >Panel Room</th>
+	</tr></thead><tbody ><tr >
+		<th >11:00pm</th>
+		<td  ><div class="div" style="min-height: 66.66666666666667px;">NYE Party</div></td></tr>
+	<tr >
+		<th >11:50pm</th>
+		<td  class="empty"></td></tr></tbody></table></div></body></html>

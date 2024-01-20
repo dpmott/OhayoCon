@@ -1,0 +1,14 @@
+# .gitignore
+
+**/node_modules
+*.bak
+2017/public/**
+**/*.csv
+**/*.tab
+**/*.docx
+**/*.pdf
+**/*.xls*
+supervisord.log
+supervisord.pid
+prototyping
+**/configs
